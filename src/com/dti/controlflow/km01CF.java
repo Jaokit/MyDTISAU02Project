@@ -30,7 +30,7 @@ public class km01CF {
             System.out.println("5555555555");
         }
         System.out.println("---------------------------------------");
-        int busNumber = 84
+        int busNumber = 84;
         switch(busNumber){
             case 80 : System.out.println("ไปสนามหลวง");
                 break;
