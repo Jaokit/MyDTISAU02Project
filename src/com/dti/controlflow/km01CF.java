@@ -31,16 +31,21 @@ public class km01CF {
         }
         System.out.println("---------------------------------------");
         int busNumber = 84;
-        switch(busNumber){
-            case 80 : System.out.println("ไปสนามหลวง");
+        switch (busNumber) {
+            case 80:
+                System.out.println("ไปสนามหลวง");
                 break;
-            case 57 : System.out.println("ไปพาต้า");
+            case 57:
+                System.out.println("ไปพาต้า");
                 break;
-            case 84 : System.out.println("ไปวัดไร่ขิง");
+            case 84:
+                System.out.println("ไปวัดไร่ขิง");
                 break;
-            case 81 : System.out.println("ไปศิริราช");
+            case 81:
+                System.out.println("ไปศิริราช");
                 break;
-            default : System.out.println("ยังไม่มีข้อมูล TT");
+            default:
+                System.out.println("ยังไม่มีข้อมูล TT");
         }
     }
 }
